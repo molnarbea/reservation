@@ -1,0 +1,16 @@
+PUT
+http://127.0.0.1:8000/api/books/2?title=nemtudom&author=valaki&pieces=521
+application/json
+
+DEL
+http://127.0.0.1:8000/api/users/6
+
+
+POST
+http://127.0.0.1:8000/api/users/
+Body->JSON
+{
+  "name": "Nagy András",
+  "email": "nagy@teszt.hu",
+  "password": "andras123"
+}
